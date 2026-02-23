@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, develop, master ]
   pull_request:
-    branches: [ main. master ]
+    branches: [ main, master ]
 
 env:
   DOCKER_IMAGE: flask-cicd-app
@@ -102,7 +102,7 @@ jobs:
         docker save ${{ env.DOCKER_IMAGE }}:latest | gzip > flask-app-image.tar.gz
     
     - name: Upload Docker image artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: docker-image
         path: flask-app-image.tar.gz
