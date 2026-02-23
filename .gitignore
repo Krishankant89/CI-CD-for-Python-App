@@ -1,0 +1,39 @@
+# Virtual Environment
+venv
+.venv
+env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# pytest / testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.dockerignore
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

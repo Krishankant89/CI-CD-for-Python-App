@@ -287,14 +287,4 @@ This project is open source and available under the MIT License.
 **Your Name**
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-## 🙏 Acknowledgments
-
-- Flask documentation
-- Docker best practices
-- GitHub Actions documentation
-- DevOps community
-
----
-
-⭐ **Star this repo** if you found it helpful!
+'''
