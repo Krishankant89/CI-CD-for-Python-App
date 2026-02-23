@@ -64,7 +64,7 @@ cicd-flask-project/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Krishankant89/CI-CD-for-Python-App
    cd cicd-flask-project
    ```
 
@@ -142,7 +142,7 @@ The GitHub Actions pipeline automatically:
    git add .
    git commit -m "Initial commit: Flask CI/CD project"
    git branch -M main
-   git remote add origin <your-github-repo>
+   git remote add origin https://github.com/Krishankant89/CI-CD-for-Python-App
    git push -u origin main
    ```
 
@@ -218,7 +218,5 @@ docker-compose down       # Stop and remove
 ```
 
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](https://github.com/Krishankant89)
 '''
