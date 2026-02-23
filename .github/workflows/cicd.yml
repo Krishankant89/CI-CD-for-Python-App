@@ -64,12 +64,12 @@ jobs:
     - name: Run flake8
       run: |
         flake8 app.py test_app.py --max-line-length=100 --ignore=E203,W503
-      continue-on-error: true
+      # continue-on-error: true
     
     - name: Check code formatting with black
       run: |
         black --check app.py test_app.py
-      continue-on-error: true
+      # continue-on-error: true
 
   # Job 3: Build Docker Image
   build:
